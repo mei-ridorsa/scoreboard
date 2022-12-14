@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreBoard\User\Domain\Exception;
+namespace App\User\Domain\Exception;
 
 use Exception;
 use JetBrains\PhpStorm\Pure;

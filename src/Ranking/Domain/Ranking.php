@@ -1,8 +1,8 @@
 <?php
 
-namespace ScoreBoard\Ranking\Domain;
+namespace App\Ranking\Domain;
 
-use ScoreBoard\User\Domain\UserCollection;
+use App\User\Domain\UserCollection;
 
 class Ranking
 {

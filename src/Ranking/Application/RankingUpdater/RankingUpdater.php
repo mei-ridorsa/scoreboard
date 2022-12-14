@@ -1,9 +1,9 @@
 <?php
 
-namespace ScoreBoard\Ranking\Application\RankingUpdater;
+namespace App\Ranking\Application\RankingUpdater;
 
-use ScoreBoard\Ranking\Domain\RankingRepository;
-use ScoreBoard\User\Domain\UserCollection;
+use App\Ranking\Domain\RankingRepository;
+use App\User\Domain\UserCollection;
 
 class RankingUpdater
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace ScoreBoard\User\Infrastructure\Persistence\InMemory;
+namespace App\User\Infrastructure\Persistence\InMemory;
 
 use Exception;
-use ScoreBoard\User\Domain\User;
-use ScoreBoard\User\Domain\UserCollection;
-use ScoreBoard\User\Domain\UserRepository;
+use App\User\Domain\User;
+use App\User\Domain\UserCollection;
+use App\User\Domain\UserRepository;
 
 class InMemoryUserRepository implements UserRepository
 {

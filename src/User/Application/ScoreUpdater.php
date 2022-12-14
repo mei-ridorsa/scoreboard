@@ -1,10 +1,10 @@
 <?php
 
-namespace ScoreBoard\User\Application;
+namespace App\User\Application;
 
-use ScoreBoard\User\Domain\Exception\UserNotFoundException;
-use ScoreBoard\User\Domain\User;
-use ScoreBoard\User\Domain\UserRepository;
+use App\User\Domain\Exception\UserNotFoundException;
+use App\User\Domain\User;
+use App\User\Domain\UserRepository;
 
 class ScoreUpdater
 {

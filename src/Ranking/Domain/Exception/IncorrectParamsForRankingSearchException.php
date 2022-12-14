@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreBoard\Ranking\Domain\Exception;
+namespace App\Ranking\Domain\Exception;
 
 use Exception;
 

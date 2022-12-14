@@ -1,11 +1,11 @@
 <?php
 
-namespace ScoreBoard\Ranking\Infrastructure\Persistence\InMemory;
+namespace App\Ranking\Infrastructure\Persistence\InMemory;
 
 use Exception;
-use ScoreBoard\Ranking\Domain\Exception\IncorrectParamsForRankingSearchException;
-use ScoreBoard\Ranking\Domain\RankingRepository;
-use ScoreBoard\User\Domain\UserCollection;
+use App\Ranking\Domain\Exception\IncorrectParamsForRankingSearchException;
+use App\Ranking\Domain\RankingRepository;
+use App\User\Domain\UserCollection;
 
 class InMemoryRankingRepository implements RankingRepository
 {

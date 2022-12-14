@@ -1,12 +1,12 @@
 <?php
 
-namespace ScoreBoard\User\Domain;
+namespace App\User\Domain;
 
 class UserCollection
 {
     private array $users;
 
-    public function __construct(array $users)
+    public function __construct(array $users = [])
     {
         /** @var  User $user */
         foreach ($users as $user) {

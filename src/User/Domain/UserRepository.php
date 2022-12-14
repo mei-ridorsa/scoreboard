@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreBoard\User\Domain;
+namespace App\User\Domain;
 
 interface UserRepository
 {
