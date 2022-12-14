@@ -2,8 +2,8 @@
 
 namespace ScoreBoard\Ranking\Application\RankingUpdater;
 
-use ScoreBoard\Position\Domain\PositionCollection;
 use ScoreBoard\Ranking\Domain\RankingRepository;
+use ScoreBoard\User\Domain\UserCollection;
 
 class RankingUpdater
 {
@@ -14,12 +14,12 @@ class RankingUpdater
         $this->rankingRepository = $rankingRepository;
     }
 
-    public function findTop(int $topNumber): PositionCollection
+    public function findTop(int $topNumber): UserCollection
     {
         return $this->rankingRepository->findTop($topNumber);
     }
 
-    public function findRelativePosition(int $position, int $width): PositionCollection
+    public function findRelativePosition(int $position, int $width): UserCollection
     {
         return $this->rankingRepository->findRelativePosition($position, $width);
     }

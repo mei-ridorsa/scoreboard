@@ -2,11 +2,11 @@
 
 namespace ScoreBoard\Ranking\Domain;
 
-use ScoreBoard\Position\Domain\PositionCollection;
+use ScoreBoard\User\Domain\UserCollection;
 
 interface RankingRepository
 {
-    public function findTop(int $topNumber): PositionCollection;
+    public function findTop(int $topNumber): UserCollection;
 
-    public function findRelativePosition(int $position, int $width): PositionCollection;
+    public function findRelativePosition(int $position, int $width): UserCollection;
 }
