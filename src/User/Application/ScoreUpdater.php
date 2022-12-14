@@ -24,6 +24,7 @@ class ScoreUpdater
 
         if (!is_null($user)) {
             $user->setScore($total);
+
             return $user;
         }
         throw UserNotFoundException::fromUserId($userId);
