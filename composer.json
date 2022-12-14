@@ -6,7 +6,6 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
-        "phpro/grumphp-shim": "^1.13",
         "phpunit/phpunit": "^9.5",
         "brianium/paratest": "^6.6",
         "friendsofphp/php-cs-fixer": "^3.11",
@@ -17,7 +16,8 @@
         "symfony/browser-kit": "6.1.*",
         "symfony/css-selector": "6.1.*",
         "symfony/maker-bundle": "^1.47",
-        "symfony/phpunit-bridge": "^6.1"
+        "symfony/phpunit-bridge": "^6.1",
+        "phpro/grumphp-shim": "^1.14"
     },
     "config": {
         "allow-plugins": {
